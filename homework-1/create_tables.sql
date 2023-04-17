@@ -1,7 +1,7 @@
 -- SQL-команды для создания таблиц
 create table employees
 (
-	employee_id int primary key,
+	employee_id serial primary key,
 	first_name varchar(50) not null,
 	last_name varchar(50) not null,
 	title varchar(100) not null,
